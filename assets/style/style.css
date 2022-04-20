@@ -1,0 +1,82 @@
+
+body{
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+}
+
+
+#navegacao{
+	background-color: #1e1e85;
+}
+
+.cortexto{
+	color: green;
+}
+
+.altera-fontes{
+	font-style: normal; 
+   	font-size: 1.4em; 
+	font-family: 'Roboto', sans-serif;
+
+}
+
+.cards{
+	text-align: center; 
+	max-width:500px;
+
+}
+
+/*// Dispositivos médios (tablets com menos de 992px)*/
+@media (max-width: 991.98px)  {
+
+#topo{
+	display: block;
+	max-width: 400px;
+	margin: 0 auto;
+
+}
+
+#gestao{
+display:none
+}
+
+}
+
+
+.emcimade:hover{
+	background-color: rgba(155, 189, 2, 0.5);
+	text-shadow: none;
+	text-decoration: none;
+	
+}
+
+.emcimade2:hover{
+	color: green;
+	text-shadow: none;
+	text-decoration: none;
+}
+
+
+
+
+.textoss:hover{
+	text-shadow: none;
+	text-decoration: none;
+}
+
+
+.map-container-6{
+	overflow:hidden;
+	padding-bottom:56.25%;
+	position:relative;
+	height:0;
+	}
+	.map-container-6 iframe{
+	left:0;
+	top:0;
+	height:100%;
+	width:100%;
+	position:absolute;
+	}
+
+	
